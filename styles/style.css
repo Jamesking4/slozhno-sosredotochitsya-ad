@@ -1,5 +1,145 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-color: var(--background-color);
+  height: 100vh;
+  font-family: 'IBM Plex mono', monospace;
+  line-height: 23.4px;
+  font-size: 18px;
+  display: grid;
+  gap: var(--page-gap);
+  letter-spacing: 0.05em;
+}
+
+.header {
+  height: 100vh;
+  background-image: var(--header-background-url);
+  padding: var(--header-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+
+.decorated-zone::before {
+  top: var(--decor-gap);
+  right: var(--decor-gap);
+  border-top: 1px solid var(--decor-color);
+  border-right: 1px solid var(--decor-color);
+}
+
+.decorated-zone::after {
+  bottom: var(--decor-gap);
+  left: var(--decor-gap);
+  border-bottom: 1px solid var(--decor-color);
+  border-left: 1px solid var(--decor-color);
+}
+
+.title {
+  font-size: var(--title-size);
+  line-height: 83%;
+  color: var(--title-color);
+  text-shadow: 4px 4px 0 var(--block-background-color);
+  font-weight: bold;
+  margin-bottom: 55px;
+}
+
+.header__theme-menu {
+  margin-left: auto;
+  margin-bottom: 65px;
+}
+
+.header__theme-menu-list{
+  display: grid;
+  grid-template-columns: column;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  background: none;
+  border: none;
+  padding: 0 13px;
+  text-transform: lowercase;
+  color: var(--decor-color);
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.header__theme-menu-button_active {
+  outline: 1px solid var(--decor-color);
+  outline-offset: -1px;
+}
+
+.main {
+  padding: var(--main-padding);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px
+}
+
+.main__title {
+  font-size: 18px;
+  color: var(--decor-color);
+}
+
+.main__title-last {
+  margin-bottom: -1px;
+}
+
+.section {
+  display: grid;
+  gap: 20px;
+}
+
+.main__container {
+  display: grid;
+  gap: 10px;
+}
+
+.container-title-block{
+  background-color: var(--block-background-color);
+  letter-spacing: -0.05em;
+}
+
+.container-title-text {
+  font-weight: bold;
+  letter-spacing: -0.04em;
+}
+
+.container-title-text-normal {
+  font-weight: normal;
+}
+
+.main__section-image {
+  display: grid;
+  gap: 10px;
+}
+
+.main__container-text {
+  color: var(--container-text-color);
+}
+
+.main__container-block-image {
+  line-height: 0;
+}
+
+.main__container-block-image img {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }

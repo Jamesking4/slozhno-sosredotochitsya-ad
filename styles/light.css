@@ -12,5 +12,10 @@
 }
 
 .theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  --header-background-url: url('../images/cover-image-light.png');
+  --decor-color: #353430;
+  --background-color: #FFF1F7;
+  --title-color: #FFC2E6;
+  --block-background-color: #FF8DCB;
+  --container-text-color: #353430;
 }
