@@ -37,15 +37,15 @@
 .decorated-zone::before {
   top: var(--decor-gap);
   right: var(--decor-gap);
-  border-top: 1px solid var(--decor-color);
-  border-right: 1px solid var(--decor-color);
+  border-top: 1.8px solid var(--decor-color);
+  border-right: 1.8px solid var(--decor-color);
 }
 
 .decorated-zone::after {
   bottom: var(--decor-gap);
   left: var(--decor-gap);
-  border-bottom: 1px solid var(--decor-color);
-  border-left: 1px solid var(--decor-color);
+  border-bottom: 1.8px solid var(--decor-color);
+  border-left: 1.8px solid var(--decor-color);
 }
 
 .header__rec {
