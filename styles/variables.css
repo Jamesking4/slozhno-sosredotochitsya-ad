@@ -1,14 +1,19 @@
 :root {
   --header-background-url: url('../images/cover-image-light.png');
   --decor-color: #353430;
-  --decor-gap: 10px;
-  --page-gap: 40px;
-  --header-padding: 10px;
-  --main-padding: 0 10px;
   --background-color: #FFF1F7;
-  --title-size: 116px;
   --title-color: #FFC2E6;
   --block-background-color: #FF8DCB;
   --container-text-color: #353430;
   --visible: hidden;
+
+  --decor-gap: 10px;
+  --page-gap: 40px;
+  --section-gap: 20px;
+  --header-padding: 10px;
+  --main-padding: 0 10px;
+  --title-size: 116px;
+  --header-padding-bottom: 10px;
+  --main-gap: 50px;
+  --section-text-gap: 10px;
 }
