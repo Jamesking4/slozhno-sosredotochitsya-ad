@@ -20,3 +20,15 @@
   --container-text-color: #F1B2CE;
   --visible: visible;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --header-background-url: url('../images/cover-image-dark.png');
+    --decor-color: #FF0070;
+    --background-color: #000028;
+    --title-color: #DB00FF;
+    --block-background-color: #FF0070;
+    --container-text-color: #F1B2CE;
+    --visible: visible;
+  }
+}
