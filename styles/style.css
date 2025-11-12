@@ -214,93 +214,93 @@
 }
 
 @media (width >= 768px) {
-:root {
-  --page-gap: 60px;
-  --decor-gap: 20px;
-  --header-padding: 20px;
-  --main-padding: 0 20px;
-  --header-padding-bottom: 21px;
-  --main-gap: 80px;
-}
+  :root {
+    --page-gap: 60px;
+    --decor-gap: 20px;
+    --header-padding: 20px;
+    --main-padding: 0 20px;
+    --header-padding-bottom: 21px;
+    --main-gap: 80px;
+  }
 
-.header-title {
-  margin-inline-start: calc(-1 * var(--decor-gap));
-}
+  .header-title {
+    margin-inline-start: calc(-1 * var(--decor-gap));
+  }
 
-.header__container-title-block {
-  width: 50%;
-}
+  .header__container-title-block {
+    width: 50%;
+  }
 
-.main__title-block {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: var(--decor-gap)
-}
+  .main__title-block {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: var(--decor-gap);
+  }
 
-.section-why,
-.section-how {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: var(--decor-gap);
-}
+  .section-why,
+  .section-how {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: var(--decor-gap);
+  }
 
-.main__container-block-images {
-  gap: var(--decor-gap);
-  grid-template-areas: 
-    "img-sea img-sea img-icecream"
-    "img-player img-books img-icecream"
-    "img-player img-street img-street";
-}
+  .main__container-block-images {
+    gap: var(--decor-gap);
+    grid-template-areas: 
+      "img-sea img-sea img-icecream"
+      "img-player img-books img-icecream"
+      "img-player img-street img-street";
+  }
 
-.main__container-block-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+  .main__container-block-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
-.img-sea { 
-  grid-area: img-sea; 
-}
+  .img-sea { 
+    grid-area: img-sea; 
+  }
 
-.img-icecream { 
-  grid-area: img-icecream; 
-}
+  .img-icecream { 
+    grid-area: img-icecream; 
+  }
 
-.img-player { 
-  grid-area: img-player; 
-}
+  .img-player { 
+    grid-area: img-player; 
+  }
 
-.img-books { 
-  grid-area: img-books; 
-}
+  .img-books { 
+    grid-area: img-books; 
+  }
 
-.img-street { 
-  grid-area: img-street; 
-}
+  .img-street { 
+    grid-area: img-street; 
+  }
 }
 
 @media (width >= 1024px) {
-.title {
-  font-size: 157px;
-}
+  .title {
+    font-size: 157px;
+  }
 
-.section-why,
-.section-how {
-  gap: var(--section-text-gap);
-}
+  .section-why,
+  .section-how {
+    gap: var(--section-text-gap);
+  }
 
-.section-container-text-what {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--decor-gap);
-}
+  .section-container-text-what {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--decor-gap);
+  }
 
-.header__theme-menu {
-  justify-self: center;
-  align-self: start;
-}
+  .header__theme-menu {
+    justify-self: center;
+    align-self: start;
+  }
 
-.header__theme-menu-list {
-  grid-template-columns: repeat(3, 1fr);
-}
+  .header__theme-menu-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
