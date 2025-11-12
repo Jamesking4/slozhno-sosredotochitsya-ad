@@ -259,23 +259,23 @@
   }
 
   .img-sea { 
-    grid-area: img-sea; 
+    grid-area: img-sea;
   }
 
   .img-icecream { 
-    grid-area: img-icecream; 
+    grid-area: img-icecream;
   }
 
   .img-player { 
-    grid-area: img-player; 
+    grid-area: img-player;
   }
 
   .img-books { 
-    grid-area: img-books; 
+    grid-area: img-books;
   }
 
   .img-street { 
-    grid-area: img-street; 
+    grid-area: img-street;
   }
 }
 
