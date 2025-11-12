@@ -258,23 +258,23 @@
     object-fit: cover;
   }
 
-  .img-sea { 
+  .img-sea {
     grid-area: img-sea;
   }
 
-  .img-icecream { 
+  .img-icecream {
     grid-area: img-icecream;
   }
 
-  .img-player { 
+  .img-player {
     grid-area: img-player;
   }
 
-  .img-books { 
+  .img-books {
     grid-area: img-books;
   }
 
-  .img-street { 
+  .img-street {
     grid-area: img-street;
   }
 }
